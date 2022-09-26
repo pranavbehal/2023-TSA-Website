@@ -1,1 +1,20 @@
+:root {
+  --teal: rgb(0, 255, 209);
+  --ocean-blue: rgb(49, 198, 212);
+  --bright-yellow: rgb(255, 255, 0);
+  --bright-red: rgb(255, 30, 30);
 
+  --darker-red: rgb(210, 0, 26);
+  --cream-white: rgb(255, 250, 231);
+  --light-grey: rgb(239, 239, 239);
+
+  /* Get Palette From Coolors */
+
+   /* 
+  https://colorhunt.co/palette/00ffd131c6d4ffff00ff1e1e
+  https://colorhunt.co/palette/d2001affde00fffae7efefef
+  https://colorhunt.co/palette/c3f8ffabd9fffff6bfffebad
+  https://colorhunt.co/palette/b9fff86fedd6ff9551ff4a4a
+  */
+
+}

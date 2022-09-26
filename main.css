@@ -8,6 +8,16 @@
   --cream-white: rgb(255, 250, 231);
   --light-grey: rgb(239, 239, 239);
 
+  --light-blue: rgb(195, 248, 255);
+  --baby-blue: rgb(171, 217, 255);
+  --light-yellow: rgb(255, 246, 191);
+  --light-medium-yellow: rgb(255, 235, 173);
+  --very-light-blue: rgb(185, 255, 248);
+  --neon-teal: rgb(111, 237, 214);
+  --bright-orange: rgb(255, 149, 81);
+  --light-red: rgb(255, 74, 74);
+}
+
   /* Get Palette From Coolors */
 
    /* 

@@ -31,39 +31,32 @@ body{
   margin: 0px;
   padding: 0px;
 }
-
-.nav{
-  background-color: #ffffff;
-  padding: 3% 5%;
-
+.nav-top {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--ocean-blue);
+  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  transition: .5s;
+  box-shadow: 0px 0px 5px gray;
 }
 
-.nav-link{
-  list-style: none;
+.nav-top-item {
+  float: left;
+}
+
+.nav-top-item-a{
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  margin: 0% 3%;
-  font-weight: bold;
-  font-family: fantasy;
-  font-size: 1.2vw;
+  border-radius: 50px;
+  margin: 8px;
 }
 
-.nav-li{
-  display: inline;
-  margin: none;
-  padding: 1% 2%;
-  border-radius: 20px;
-}
-
-.nav-li:hover{
-  background-color:var(--teal);
-  box-shadow: 5px 5px 0px gray;
-}
-
-.scrolling-active{
-  background-blend-mode:  color;
-  padding: 2% 5%;
+li a:hover {
+  background-color: white;
 }

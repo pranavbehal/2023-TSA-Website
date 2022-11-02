@@ -27,4 +27,44 @@
   https://colorhunt.co/palette/b9fff86fedd6ff9551ff4a4a
   */
 
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav{
+  background-color: var(--ocean-blue);
+  padding: 3% 5%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  position: sticky;
+  top: 0;
+  transition: .5s;
+}
+
+.nav-link{
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  margin: 0% 3%;
+  font-weight: bold;
+  font-family: fantasy;
+  font-size: 1.5vw;
+}
+
+.nav-li{
+  display: inline;
+  margin: none;
+  background-color:var(--neon-teal);
+  padding: 2%;
+  border-radius: 50px;
+}
+
+.nav-li:hover{
+  background-color:var(--teal);
+  box-shadow: 5px 5px 0px gray;
+}
+
+.scrolling-active{
+  background-blend-mode:  color;
+  padding: 2% 5%;
 }

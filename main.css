@@ -54,9 +54,8 @@ body{
 .nav-li{
   display: inline;
   margin: none;
-  background-color:var(--neon-teal);
   padding: 1% 2%;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .nav-li:hover{

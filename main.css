@@ -36,67 +36,40 @@ body {
   padding: 0px;
 }
 
-.nav {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.web-nav {
   background-color: var(--ocean-blue);
-  box-shadow: 0px 0px 5px gray;
+  padding: 2% 5%;
   position: sticky;
   top: 0;
+  transition: 0.5s;
 }
 
-.nav-text {
-  color: black;
-  font-family: fantasy;
-  padding: 8px 16px;
-  margin: 0px;
-}
-
-.nav-top {
-  list-style-type: none;
-  margin: 0px;
-}
-
-.nav-top-item {
-  float: left;
-}
-/*Dont forget to push changes nvm im not changing, we have everything set up for float stuff.*/
-.nav-top-item-a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+.nav-link {
+  list-style: none;
+  color: var(--cream-white);
   text-decoration: none;
-  border-radius: 50px;
-  margin: 8px;
+  margin: 0% 2%;
+  font-weight: bold;
+  font-family: Nunito;
+  font-size: 1.4vw;
 }
 
-li a:hover {
-  background-color: white;
+.nav-li {
+  display: inline;
+  margin: none;
+  padding: 1% 2%;
+  border-radius: 20px;
 }
 
-.home-container {
-  display: flex;
+.nav-li:hover {
+  background-color: var(--bright-orange);
 }
 
-.home-video {
-  width: 40%;
-  height: auto;
-  margin: 5%;
+.scrolling-active {
+  background-blend-mode: color;
+  padding: 2% 5%;
 }
 
-.home-para {
-  width: 45%;
-  margin: 5% 5% 5% 0%;
-}
-.para {
-  margin: 5%;
-}
-
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: var(--ocean-blue);
-  color: black;
+.nav-images {
+  margin-right: 10px;
 }

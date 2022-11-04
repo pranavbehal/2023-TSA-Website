@@ -55,7 +55,7 @@ body {
 }
 
 .home-nav-link {
-  margin-right: 10%;
+  margin-right: 0%;/*Why was this at 10%?!*/
 }
 
 .nav-li {
@@ -77,4 +77,5 @@ body {
 
 .nav-images {
   margin-right: 10px;
+  vertical-align: middle;
 }

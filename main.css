@@ -79,3 +79,64 @@ body {
   margin-right: 10px;
   vertical-align: middle;
 }
+
+
+.title {
+  font-size: 5vw;
+  font-family: Nunito;
+  text-align: center;
+  vertical-align: text-top;
+}
+
+.h1 {
+  font-size: 4vw;
+  font-family: Nunito;
+  text-align: center;
+  vertical-align: text-top;
+}
+
+.Charecters{
+  margin: 0 -5px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Char {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+.CharImg {
+  width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  .Char {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.Charecters:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  Margin: 5%;
+  text-align: center;
+  background-color: var(--very-light-blue);
+  text-align: center;
+  font-family: Nunito;
+}
+

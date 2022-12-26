@@ -96,8 +96,17 @@ body {
 }
 
 .Charecters{
-  margin: 0 -5px;
+  margin: 5vw 0;
+  background-color: var(--bright-orange);
+  padding: 0 5%;
+  width: 100%;
+  border-radius: 1vw ;
 }
+
+div.relative {
+  left: 10vw;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -108,7 +117,7 @@ body {
 
 .Char {
   float: left;
-  width: 33%;
+  width: 25%;
   padding: 0 10px;
 }
 
@@ -132,6 +141,7 @@ body {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.5vw ;
   padding: 16px;
   Margin: 5%;
   text-align: center;

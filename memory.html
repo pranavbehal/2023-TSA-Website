@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="icon" type="image/x-icon" href="/Images/favicon.png" />
+    <link rel="stylesheet" href="memory.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/xbo6rbk.css" />
+    <script src="games.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <nav class="web-nav">
+      <a href="index.html" class="nav-link home-nav-link"
+        ><li class="nav-li">HOME</li></a
+      >
+      <a href="about.html" class="nav-link"
+        ><li class="nav-li">
+          <img
+            class="nav-images"
+            src="images/about_logo.png"
+            height="40vw"
+            width="40vw"
+          />About SHOW NAME
+        </li></a
+      >
+      <a href="parents.html" class="nav-link"
+        ><li class="nav-li">
+          <img
+            class="nav-images"
+            src="images/parents_logo.png"
+            height="40vw"
+            width="40vw"
+          />For Parents
+        </li></a
+      >
+      <a href="games.html" class="nav-link"
+        ><li class="nav-li">
+          <img
+            class="nav-images"
+            src="images/game_logo.png"
+            height="40vw"
+            width="40vw"
+          />Games
+        </li></a
+      >
+      <a href="credits.html" class="nav-link"
+        ><li class="nav-li">
+          <img
+            class="nav-images"
+            src="images/credits_logo.png"
+            height="40vw"
+            width="40vw"
+          />Credits
+        </li></a
+      >
+    </nav>
+    <div id="memory-explanation">
+      <h2>Memory Game</h2>
+      <p>
+        In this game, you will be flipping two cards at a time and trying to
+        find a match. To win, flip all of the cards!
+      </p>
+      <button class="memory-restart" onclick="hideMemoryExplanation()">
+        Start Game
+      </button>
+    </div>
+    <section class="memory-game">
+      <div class="memory-card" data-framework="lily">
+        <img class="front-face" src="img/lily.png" alt="Lily" />
+        <img class="back-face" src="img/card-back.png" alt="Back of Card" />
+      </div>
+      <div class="memory-card" data-framework="lily">
+        <img class="front-face" src="img/lily.png" alt="Lily" />
+        <img class="back-face" src="img/card-back.png" alt="Back of Card" />
+      </div>
+
+      <div class="memory-card" data-framework="max">
+        <img class="front-face" src="img/max.png" alt="Max" />
+        <img class="back-face" src="img/card-back.png" alt="Back of Card" />
+      </div>
+      <div class="memory-card" data-framework="max">
+        <img class="front-face" src="img/max.png" alt="Max" />
+        <img class="back-face" src="img/card-back.png" alt="Back of Card" />
+      </div>
+
+      <div class="memory-card" data-framework="emma">
+        <img class="front-face" src="img/emma.png" alt="Emma" />
+        <img class="back-face" src="img/card-back.png" alt="Back of Card" />
+      </div>
+      <div class="memory-card" data-framework="emma">
+        <img class="front-face" src="img/emma.png" alt="Emma" />
+        <img class="back-face" src="img/card-back.png" alt="Back of Card" />
+      </div>
+
+      <div class="memory-card" data-framework="tyler">
+        <img class="front-face" src="img/tyler.png" alt="Tyler" />
+        <img class="back-face" src="img/card-back.png" alt="Back of Card" />
+      </div>
+      <div class="memory-card" data-framework="tyler">
+        <img class="front-face" src="img/tyler.png" alt="Tyler" />
+        <img class="back-face" src="img/card-back.png" alt="Back of Card" />
+      </div>
+
+      <div class="memory-card" data-framework="colors">
+        <img class="front-face" src="img/colors.png" alt="Colors" />
+        <img class="back-face" src="img/card-back.png" alt="Back of Card" />
+      </div>
+      <div class="memory-card" data-framework="colors">
+        <img class="front-face" src="img/colors.png" alt="Colors" />
+        <img class="back-face" src="img/card-back.png" alt="Back of Card" />
+      </div>
+
+      <div class="memory-card" data-framework="books">
+        <img class="front-face" src="img/books.png" alt="Books" />
+        <img class="back-face" src="img/card-back.png" alt="Back of Card" />
+      </div>
+      <div class="memory-card" data-framework="books">
+        <img class="front-face" src="img/books.png" alt="Books" />
+        <img class="back-face" src="img/card-back.png" alt="Back of Card" />
+      </div>
+    </section>
+    <div class="memory-win">
+      <h2>You won the game!</h2>
+      <button class="memory-restart" onclick="location.reload()">
+        Play Again
+      </button>
+    </div>
+  </body>
+</html>

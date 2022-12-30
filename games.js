@@ -7,17 +7,18 @@ let firstCard, secondCard;
 function flipCard() {
   if (lockBoard) return;
   if (this === firstCard) return;
-
   this.classList.add("flip");
 
   if (!hasFlippedCard) {
+    // first click
     hasFlippedCard = true;
     firstCard = this;
-
     return;
   }
 
+  // second click
   secondCard = this;
+
   checkForMatch();
 }
 
@@ -50,18 +51,18 @@ function resetBoard() {
   [firstCard, secondCard] = [null, null];
 }
 
-function shuffle() {
+(function shuffle() {
   cards.forEach((card) => {
     let randomPos = Math.floor(Math.random() * 12);
     card.style.order = randomPos;
   });
-}
+})();
 
 cards.forEach((card) => card.addEventListener("click", flipCard));
 
-if (document.getElementById("memory-explanation").style.display != "none") {
-  lockBoard = true;
-}
+// if (document.getElementById("memory-explanation").style.display != "none") {
+//   lockBoard = true;
+// }
 
 function hideMemoryExplanation() {
   document.getElementById("memory-explanation").style.display = "none";

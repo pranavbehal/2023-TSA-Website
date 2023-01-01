@@ -19,45 +19,25 @@
       >
       <a href="about.html" class="nav-link"
         ><li class="nav-li">
-          <!-- <img
-            class="nav-images"
-            src="images/about_logo.png"
-            height="40vw"
-            width="40vw"
-          /> -->
+          <div id="about-nav"></div>
           About SHOW NAME
         </li></a
       >
       <a href="parents.html" class="nav-link"
         ><li class="nav-li">
-          <!-- <img
-            class="nav-images"
-            src="images/parents_logo.png"
-            height="40vw"
-            width="40vw"
-          /> -->
+          <div id="parents-nav"></div>
           For Parents
         </li></a
       >
       <a href="games.html" class="nav-link"
         ><li class="nav-li">
-          <!-- <img
-            class="nav-images"
-            src="images/game_logo.png"
-            height="40vw"
-            width="40vw"
-          /> -->
+          <div id="games-nav"></div>
           Games
         </li></a
       >
       <a href="credits.html" class="nav-link"
         ><li class="nav-li">
-          <!-- <img
-            class="nav-images"
-            src="images/credits_logo.png"
-            height="40vw"
-            width="40vw"
-          /> -->
+          <div id="credits-nav"></div>
           Credits
         </li></a
       >
@@ -68,18 +48,10 @@
         In this game, you will be flipping two cards at a time and trying to
         find a match. To win, flip all of the cards!
       </p>
-      <button class="memory-restart" onclick="hideMemoryExplanation()">
-        Start Game
-      </button>
     </div>
     <h3><span id="result">Score: </span></h3>
-
+    <button id="memory-restart" onclick="location.reload()">Play Again</button>
     <div class="grid"></div>
-    <div class="memory-win">
-      <h2>You won the game!</h2>
-      <button class="memory-restart" onclick="location.reload()">
-        Play Again
-      </button>
-    </div>
+    <div class="memory-win"></div>
   </body>
 </html>

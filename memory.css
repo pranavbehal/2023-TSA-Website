@@ -28,3 +28,39 @@
   width: 1200px;
   height: 80%;
 }
+
+#about-nav {
+  content: url(images/about_logo.png);
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#parents-nav {
+  content: url(images/parents_logo.png);
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#games-nav {
+  content: url(images/game_logo.png);
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#credits-nav {
+  content: url(images/credits_logo.png);
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}

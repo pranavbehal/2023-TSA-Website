@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("memory-restart").style.display = "none";
   const cardArray = [
     {
       name: "emma",
@@ -75,6 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
     resultDisplay.textContent = `Score: ${cardsWon.length}`;
     if (cardsWon.length === cardArray.length / 2) {
       resultDisplay.textContent = "Congratulations! You found them all!";
+      document.getElementById("memory-restart").style.display = "block";
     }
   }
 

@@ -55,7 +55,7 @@ body {
 }
 
 .home-nav-link {
-  margin-right: 0%;/*Why was this at 10%?!*/
+  margin-right: 0%;
 }
 
 .nav-li {
@@ -80,7 +80,6 @@ body {
   vertical-align: middle;
 }
 
-
 .title {
   font-size: 5vw;
   font-family: Nunito;
@@ -95,12 +94,12 @@ body {
   vertical-align: text-top;
 }
 
-.Charecters{
+.Charecters {
   margin: 5vw 0;
   background-color: var(--bright-orange);
   padding: 0 5%;
   width: 100%;
-  border-radius: 1vw ;
+  border-radius: 1vw;
 }
 
 div.relative {
@@ -141,12 +140,11 @@ body {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 0.5vw ;
+  border-radius: 0.5vw;
   padding: 16px;
-  Margin: 5%;
+  margin: 5%;
   text-align: center;
   background-color: var(--very-light-blue);
   text-align: center;
   font-family: Nunito;
 }
-

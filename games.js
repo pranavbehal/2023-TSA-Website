@@ -1,6 +1,18 @@
+localStorage.setItem("hasCodeRunBefore", null);
+window.onload = function () {
+  if (localStorage.getItem("hasCodeRunBefore") === null) {
+    let oneUseScore = 9999;
+    localStorage.setItem("highScore", oneUseScore);
+    localStorage.setItem("hasCodeRunBefore", true);
+  }
+};
 document.addEventListener("DOMContentLoaded", () => {
+  console.log(localStorage.getItem("highScore"));
+  console.log(+localStorage.getItem("highScore"));
+
   document.getElementById("memory-restart").style.display = "none";
   timeDisplay.style.display = "block";
+  document.getElementById("highScoreDisplay").style.display = "none";
   const cardArray = [
     {
       name: "emma",
@@ -83,8 +95,29 @@ document.addEventListener("DOMContentLoaded", () => {
       elapsedTime = Math.floor((Date.now() - startTime) / 1000);
       timeDisplay.style.display = "none";
       resultDisplay.textContent = `Congratulations! You found them all in ${elapsedTime} seconds!`;
+
       document.getElementById("memory-restart").style.display = "block";
       clearInterval(intervalId);
+      // saveHighScore();
+      console.log(elapsedTime);
+      console.log(localStorage.getItem("highScore"));
+      if (elapsedTime >= +localStorage.getItem("highScore")) {
+        console.log("less");
+        console.log(+localStorage.getItem("highScore"));
+        console.log(elapsedTime);
+        oneUseScore = +localStorage.getItem("highScore");
+      } else {
+        console.log(elapsedTime);
+        localStorage.setItem("highScore", elapsedTime);
+        console.log(localStorage.getItem("highScore"));
+        oneUseScore = +localStorage.getItem("highScore");
+      }
+      document.getElementById("highScoreDisplay").style.display = "block";
+      document.getElementById(
+        "highScoreDisplay"
+      ).textContent = `High Score: ${localStorage.getItem(
+        "highScore"
+      )} seconds`;
     }
   }
 
@@ -100,6 +133,14 @@ document.addEventListener("DOMContentLoaded", () => {
       setTimeout(checkForMatch, 500);
     }
   }
+
+  // let saveHighScore = function () {
+  //   let highScore = localStorage.getItem("highScore");
+  //   if (!highScore || elapsedTime < highScore) {
+  //     localStorage.setItem("highScore", elapsedTime);
+  //   }
+  // };
+  // saveHighScore();
 
   createBoard();
 

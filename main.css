@@ -22,15 +22,6 @@
   --light-red: rgb(255, 74, 74);
 }
 
-/* Get Palette From Coolors */
-
-/* 
-  https://colorhunt.co/palette/00ffd131c6d4ffff00ff1e1e
-  https://colorhunt.co/palette/d2001affde00fffae7efefef
-  https://colorhunt.co/palette/c3f8ffabd9fffff6bfffebad
-  https://colorhunt.co/palette/b9fff86fedd6ff9551ff4a4a
-  */
-
 body {
   margin: 0px;
   padding: 0px;
@@ -148,3 +139,39 @@ body {
   text-align: center;
   font-family: Nunito;
 }
+
+/* Memory Game Styling */
+/* .memory-banner-h1 {
+  font-family: Quicksand;
+  font-weight: 600;
+  text-align: center;
+  color: var(--light-grey);
+}
+
+.memory-banner-h2 {
+  font-family: Nunito;
+  font-weight: 600;
+  text-align: center;
+  color: var(--light-grey);
+}
+
+.memory-banner {
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  height: 300px;
+  margin: auto;
+  width: 45%;
+} */

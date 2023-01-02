@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Chilanka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 :root {
   --teal: rgb(0, 255, 209);
   --ocean-blue: rgb(49, 198, 212);
@@ -18,15 +22,43 @@
   --light-red: rgb(255, 74, 74);
 }
 
+* {
+  font-family: Quicksand;
+  text-align: center;
+}
+
 .web-nav {
   position: static !important;
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1200px;
   height: 80%;
+  margin: auto;
+  width: 50%;
+}
+
+.grid img {
+  height: 175px;
+  width: 175px;
+  margin: 10px;
+  align-content: center;
+}
+
+button {
+  background-color: var(--ocean-blue);
+  color: var(--cream-white);
+  border-color: var(--light-blue);
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid;
+  font-weight: 600;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 #about-nav {

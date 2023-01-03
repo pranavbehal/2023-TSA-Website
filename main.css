@@ -124,6 +124,10 @@ body {
   font-family: Nunito;
 }
 
+.home-flex-container{
+  margin: 5%;
+}
+
 .home-mascot-div{
   width: 30%;
   text-align: center;

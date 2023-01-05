@@ -112,6 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } else {
         console.log(elapsedTime);
         window.localStorage.setItem("highScore", elapsedTime);
+        latestHighScore = elapsedTime;
         console.log(window.localStorage.getItem("highScore"));
         console.log(latestHighScore);
         oneUseScore = latestHighScore;

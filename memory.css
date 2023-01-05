@@ -96,3 +96,40 @@ button:hover {
   margin-right: 10px;
   vertical-align: middle;
 }
+
+@media only screen and (max-width: 600px) {
+  .grid {
+    height: 80%;
+    margin: auto;
+    width: 50%;
+  }
+
+  .grid img {
+    height: 175px;
+    width: 175px;
+    margin: 10px;
+    align-content: center;
+  }
+
+  button {
+    background-color: var(--ocean-blue);
+    color: var(--cream-white);
+    border-color: var(--light-blue);
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid;
+    font-weight: 600;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}

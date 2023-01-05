@@ -27,7 +27,7 @@ body {
   padding: 0px;
 }
 
-section{
+section {
   margin: 16px;
 }
 
@@ -37,6 +37,7 @@ section{
   position: sticky;
   top: 0;
   transition: 0.5s;
+  text-align: center;
 }
 
 .nav-link {
@@ -114,7 +115,7 @@ body {
   width: 90%;
 }
 
-.flex-container{
+.flex-container {
   display: flex;
   background-color: var(--bright-orange);
   border-radius: 1vw;
@@ -124,22 +125,22 @@ body {
   font-family: Nunito;
 }
 
-.home-flex-container{
+.home-flex-container {
   margin: 5%;
 }
 
-.home-mascot-div{
+.home-mascot-div {
   width: 30%;
   text-align: center;
   margin: 1% 5%;
 }
 
-.home-mascot{
+.home-mascot {
   width: 100%;
   height: 100%;
 }
 
-.intro-para{
+.intro-para {
   width: 60%;
   margin: 1% 5%;
   font-size: 2vw;

@@ -9,6 +9,7 @@ window.onload = function () {
 document.addEventListener("DOMContentLoaded", () => {
   console.log(window.localStorage.getItem("highScore"));
   console.log(+window.localStorage.getItem("highScore"));
+  let latestHighScore = +window.localStorage.getItem("highScore");
 
   document.getElementById("memory-restart").style.display = "none";
   timeDisplay.style.display = "block";
@@ -101,16 +102,19 @@ document.addEventListener("DOMContentLoaded", () => {
       // saveHighScore();
       console.log(elapsedTime);
       console.log(window.localStorage.getItem("highScore"));
-      if (elapsedTime >= +window.localStorage.getItem("highScore")) {
+      console.log(latestHighScore);
+      if (elapsedTime >= latestHighScore) {
         console.log("less");
         console.log(+window.localStorage.getItem("highScore"));
+        console.log(latestHighScore);
         console.log(elapsedTime);
-        oneUseScore = +window.localStorage.getItem("highScore");
+        oneUseScore = latestHighScore;
       } else {
         console.log(elapsedTime);
         window.localStorage.setItem("highScore", elapsedTime);
         console.log(window.localStorage.getItem("highScore"));
-        oneUseScore = +window.localStorage.getItem("highScore");
+        console.log(latestHighScore);
+        oneUseScore = latestHighScore;
       }
       document.getElementById("highScoreDisplay").style.display = "block";
       document.getElementById(

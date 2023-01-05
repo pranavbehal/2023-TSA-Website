@@ -1,14 +1,14 @@
-localStorage.setItem("hasCodeRunBefore", null);
+window.localStorage.setItem("hasCodeRunBefore", "false");
 window.onload = function () {
-  if (localStorage.getItem("hasCodeRunBefore") === null) {
+  if (window.localStorage.getItem("hasCodeRunBefore") === "false") {
     let oneUseScore = 9999;
-    localStorage.setItem("highScore", oneUseScore);
-    localStorage.setItem("hasCodeRunBefore", true);
+    window.localStorage.setItem("highScore", oneUseScore);
+    window.localStorage.setItem("hasCodeRunBefore", "true");
   }
 };
 document.addEventListener("DOMContentLoaded", () => {
-  console.log(localStorage.getItem("highScore"));
-  console.log(+localStorage.getItem("highScore"));
+  console.log(window.localStorage.getItem("highScore"));
+  console.log(+window.localStorage.getItem("highScore"));
 
   document.getElementById("memory-restart").style.display = "none";
   timeDisplay.style.display = "block";
@@ -100,22 +100,22 @@ document.addEventListener("DOMContentLoaded", () => {
       clearInterval(intervalId);
       // saveHighScore();
       console.log(elapsedTime);
-      console.log(localStorage.getItem("highScore"));
-      if (elapsedTime >= +localStorage.getItem("highScore")) {
+      console.log(window.localStorage.getItem("highScore"));
+      if (elapsedTime >= +window.localStorage.getItem("highScore")) {
         console.log("less");
-        console.log(+localStorage.getItem("highScore"));
+        console.log(+window.localStorage.getItem("highScore"));
         console.log(elapsedTime);
-        oneUseScore = +localStorage.getItem("highScore");
+        oneUseScore = +window.localStorage.getItem("highScore");
       } else {
         console.log(elapsedTime);
-        localStorage.setItem("highScore", elapsedTime);
-        console.log(localStorage.getItem("highScore"));
-        oneUseScore = +localStorage.getItem("highScore");
+        window.localStorage.setItem("highScore", elapsedTime);
+        console.log(window.localStorage.getItem("highScore"));
+        oneUseScore = +window.localStorage.getItem("highScore");
       }
       document.getElementById("highScoreDisplay").style.display = "block";
       document.getElementById(
         "highScoreDisplay"
-      ).textContent = `High Score: ${localStorage.getItem(
+      ).textContent = `High Score: ${window.localStorage.getItem(
         "highScore"
       )} seconds`;
     }

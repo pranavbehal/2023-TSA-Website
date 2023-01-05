@@ -119,9 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById("highScoreDisplay").style.display = "block";
       document.getElementById(
         "highScoreDisplay"
-      ).textContent = `High Score: ${window.localStorage.getItem(
-        "highScore"
-      )} seconds`;
+      ).textContent = `High Score: ${latestHighScore} seconds`;
     }
   }
 

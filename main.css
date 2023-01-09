@@ -27,6 +27,7 @@ body {
   padding: 0px;
 }
 
+
 section {
   margin: 16px;
 }
@@ -112,7 +113,9 @@ body {
 }
 
 .CharImg {
+  border-radius: 2%;
   width: 90%;
+  background-color: var(--teal);
 }
 
 .flex-container {
@@ -158,6 +161,15 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+.aboutp{
+  padding: 16px;
+  margin: 5%;
+  text-align: center;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 150%;
 }
 
 .card {

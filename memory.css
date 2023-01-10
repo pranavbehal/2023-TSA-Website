@@ -35,6 +35,11 @@ button:hover {
   cursor: pointer;
 }
 
+#memory-explanation {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 #about-nav {
   content: url(images/about_logo.png);
   height: 40px;
@@ -79,8 +84,8 @@ button:hover {
   }
 
   .grid img {
-    height: 115px;
-    width: 115px;
+    height: 100px;
+    width: 100px;
     margin: 10px;
     align-content: center;
   }
@@ -135,8 +140,8 @@ button:hover {
   }
 
   .grid img {
-    height: 150px;
-    width: 150px;
+    height: 135px;
+    width: 135px;
     margin: 10px;
     align-content: center;
   }

@@ -32,6 +32,14 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "images/tyler.png",
     },
     {
+      name: "art",
+      img: "images/Art.JPEG",
+    },
+    {
+      name: "books",
+      img: "images/Books.JPEG",
+    },
+    {
       name: "emma",
       img: "images/emma.png",
     },
@@ -46,6 +54,14 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       name: "tyler",
       img: "images/tyler.png",
+    },
+    {
+      name: "art",
+      img: "images/Art.JPEG",
+    },
+    {
+      name: "books",
+      img: "images/Books.JPEG",
     },
   ];
 

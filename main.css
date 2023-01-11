@@ -39,6 +39,7 @@ section {
   top: 0;
   transition: 0.5s;
   text-align: center;
+  box-shadow: 0px 0px 5px grey;
 }
 
 .nav-link {
@@ -165,18 +166,33 @@ body {
   margin: 1% 5%;
 }
 
+.slideshow-div{
+  width: 45%;
+  margin: 0px 5%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
 /*SLIDESHOW*/     
 #slideshow {
   overflow: hidden;
   height: 500px;
   width: 1000px;
-  margin: 0 auto;
+  margin: 0px ;
+  border-radius: 5px;
 }
+
 
 .slide {
   float: left;
-  height: 510px;
+  height: 500px;
   width: 1000px;
+  align-items: center;
+}
+
+.slid-img{
+  width: 50px;
+  height: 50px;
 }
  
 .slide-animation {
@@ -185,7 +201,7 @@ body {
 }
  
 .slide:nth-child(1) {
-  background-image: green;
+  background: green;
 }
  
 .slide:nth-child(2) {
@@ -214,9 +230,6 @@ body {
       margin-left: calc(-1000px * 3);
   }
 }
-
-.f
-
 
 @media screen and (max-width: 600px) {
   .Char {

@@ -32,6 +32,21 @@ section {
   margin: 16px;
 }
 
+a:link {
+  color: var(--ocean-blue);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--very-light-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--neon-teal);
+  text-decoration: none;
+}
+
 .web-nav {
   background-color: var(--ocean-blue);
   padding: 30px 5%;
@@ -44,7 +59,7 @@ section {
 
 .nav-link {
   list-style: none;
-  color: var(--cream-white);
+  color: var(--cream-white) !important;
   text-decoration: none;
   margin: 0% 2%;
   font-weight: bold;
@@ -64,8 +79,8 @@ section {
 }
 
 .nav-li:hover {
-  background-color: #ffffff;
-  color: var(--ocean-blue);
+  background-color: #ffffff !important;
+  color: var(--ocean-blue) !important;
 }
 
 .nav-images {
@@ -89,7 +104,7 @@ section {
 
 .Charecters {
   margin: 5vw 0px;
-  background-color: var(--bright-orange);
+  background-color: var(--bright-orange) !important;
   padding: 0 5%;
   width: 100%;
   border-radius: 1vw;
@@ -122,7 +137,7 @@ body {
   border-radius: 1vw;
   align-items: center;
   margin: 1%;
-  color: white;
+  color: white !important;
   font-family: Nunito;
 }
 
@@ -149,11 +164,11 @@ body {
   font-size: 2vw;
 }
 
-.rating-flex-container{
-  margin: 0px 5%
+.rating-flex-container {
+  margin: 0px 5%;
 }
 
-.rating-para{
+.rating-para {
   width: 55%;
   padding: 6%;
   font-size: 2vw;
@@ -161,27 +176,26 @@ body {
   border-radius: 5px;
 }
 
-.rating-image-div{
+.rating-image-div {
   width: 45%;
   margin: 1% 5%;
 }
 
-.slideshow-div{
+.slideshow-div {
   width: 45%;
   margin: 0px 5%;
   overflow: hidden;
   border-radius: 5px;
 }
 
-/*SLIDESHOW*/     
+/*SLIDESHOW*/
 #slideshow {
   overflow: hidden;
   height: 500px;
   width: 1000px;
-  margin: 0px ;
+  margin: 0px;
   border-radius: 5px;
 }
-
 
 .slide {
   float: left;
@@ -190,44 +204,44 @@ body {
   align-items: center;
 }
 
-.slid-img{
+.slid-img {
   width: 50px;
   height: 50px;
 }
- 
+
 .slide-animation {
   width: calc(1000px * 4);
   animation: slide 15s ease infinite;
 }
- 
+
 .slide:nth-child(1) {
   background: green;
 }
- 
+
 .slide:nth-child(2) {
   background: pink;
 }
- 
+
 .slide:nth-child(3) {
   background: red;
 }
- 
+
 .slide:nth-child(4) {
   background: yellow;
 }
- 
+
 @keyframes slide {
   20% {
-      margin-left: 0px;
+    margin-left: 0px;
   }
   40% {
-      margin-left: calc(-1000px * 1);
+    margin-left: calc(-1000px * 1);
   }
   60% {
-      margin-left: calc(-1000px * 2);
+    margin-left: calc(-1000px * 2);
   }
   80% {
-      margin-left: calc(-1000px * 3);
+    margin-left: calc(-1000px * 3);
   }
 }
 
@@ -256,19 +270,18 @@ body {
   font-family: Nunito;
 }
 
-/* Memory Game Styling */
-/* .memory-banner-h1 {
+.banner-h1 {
   font-family: Quicksand;
   font-weight: 600;
   text-align: center;
-  color: var(--light-grey);
+  color: #ffffff;
 }
 
-.memory-banner-h2 {
+.banner-h2 {
   font-family: Nunito;
   font-weight: 600;
   text-align: center;
-  color: var(--light-grey);
+  color: #ffffff;
 }
 
 .memory-banner {
@@ -289,5 +302,26 @@ body {
   );
   height: 300px;
   margin: auto;
-  width: 45%;
-} */
+  width: 400px;
+}
+
+.coloring-banner {
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  height: 300px;
+  margin: auto;
+  width: 400px;
+}

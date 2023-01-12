@@ -17,19 +17,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardArray = [
     {
       name: "emma",
-      img: "images/emma.png",
+      img: "images/emma.PNG",
     },
     {
       name: "lily",
-      img: "images/lily.png",
+      img: "images/lily.PNG",
     },
     {
       name: "max",
-      img: "images/max.png",
+      img: "images/max.PNG",
     },
     {
       name: "tyler",
-      img: "images/tyler.png",
+      img: "images/tyler.PNG",
     },
     {
       name: "art",
@@ -41,19 +41,19 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       name: "emma",
-      img: "images/emma.png",
+      img: "images/emma.PNG",
     },
     {
       name: "lily",
-      img: "images/lily.png",
+      img: "images/lily.PNG",
     },
     {
       name: "max",
-      img: "images/max.png",
+      img: "images/max.PNG",
     },
     {
       name: "tyler",
-      img: "images/tyler.png",
+      img: "images/tyler.PNG",
     },
     {
       name: "art",
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
       const card = document.createElement("img");
-      card.setAttribute("src", "images/blank.png");
+      card.setAttribute("src", "images/blank.PNG");
       card.setAttribute("data-id", i);
       card.addEventListener("click", flipCard);
       grid.appendChild(card);
@@ -92,17 +92,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const optionTwoId = cardsChosenId[1];
 
     if (optionOneId == optionTwoId) {
-      cards[optionOneId].setAttribute("src", "images/blank.png");
-      cards[optionTwoId].setAttribute("src", "images/blank.png");
+      cards[optionOneId].setAttribute("src", "images/blank.PNG");
+      cards[optionTwoId].setAttribute("src", "images/blank.PNG");
     } else if (cardsChosen[0] === cardsChosen[1]) {
-      cards[optionOneId].setAttribute("src", "images/transparent.png");
-      cards[optionTwoId].setAttribute("src", "images/transparent.png");
+      cards[optionOneId].setAttribute("src", "images/transparent.PNG");
+      cards[optionTwoId].setAttribute("src", "images/transparent.PNG");
       cards[optionOneId].removeEventListener("click", flipCard);
       cards[optionTwoId].removeEventListener("click", flipCard);
       cardsWon.push(cardsChosen);
     } else {
-      cards[optionOneId].setAttribute("src", "images/blank.png");
-      cards[optionTwoId].setAttribute("src", "images/blank.png");
+      cards[optionOneId].setAttribute("src", "images/blank.PNG");
+      cards[optionTwoId].setAttribute("src", "images/blank.PNG");
     }
     cardsChosen = [];
     cardsChosenId = [];

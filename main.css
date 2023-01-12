@@ -136,7 +136,6 @@ body {
   display: flex;
   border-radius: 1vw;
   align-items: center;
-  margin: 1%;
   color: white !important;
   font-family: Nunito;
 }
@@ -181,9 +180,23 @@ body {
   margin: 1% 5%;
 }
 
+.episode-para {
+  padding: 6%;
+  font-size: 2vw;
+  background-color: var(--ocean-blue);
+  border-radius: 5px;
+  margin: auto;
+  color: white;
+}
+
+.episode-div{
+  margin: 0px 5%;
+}
+
+
 .slideshow-div {
   width: 500px;
-  margin: 0px 10%;
+  margin: auto;
   border-radius: 5px;
 }
 

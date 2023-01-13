@@ -38,7 +38,7 @@ a:link {
 }
 
 a:visited {
-  color: var(--very-light-blue);
+  color: var(--baby-blue);
   text-decoration: none;
 }
 
@@ -189,10 +189,9 @@ body {
   color: white;
 }
 
-.episode-div{
+.episode-div {
   margin: 0px 5%;
 }
-
 
 .slideshow-div {
   width: 500px;
@@ -336,4 +335,177 @@ body {
   height: 300px;
   margin: auto;
   width: 400px;
+}
+
+/* Credits Page */
+
+.repo-button {
+  background-color: var(--bright-orange);
+  text-decoration: none !important;
+  color: white !important;
+  border: none;
+  border-radius: 0.5vw;
+  padding: 1vw 2vw;
+  text-align: center;
+  display: inline-block;
+  font-size: 1vw;
+  margin: 1vw 1vw;
+  cursor: pointer;
+  font-family: Quicksand;
+  font-weight: 600;
+}
+
+#credits-content {
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#credits-content h1 {
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 3vw;
+  text-align: center;
+}
+
+#credits-content h2 {
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 2vw;
+  text-align: center;
+}
+
+#credits-content p {
+  font-family: Quicksand;
+  font-weight: 600;
+  font-size: 1vw;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #credits-content h1 {
+    font-size: 25px;
+  }
+  #credits-content h2 {
+    font-size: 20px;
+  }
+  #credits-content p {
+    font-size: 12.5px;
+  }
+  .repo-button {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #credits-content h1 {
+    font-size: 35px;
+  }
+  #credits-content h2 {
+    font-size: 27.5px;
+  }
+  #credits-content p {
+    font-size: 17.5px;
+  }
+  .repo-button {
+    font-size: 25px;
+    padding: 15px 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #credits-content h1 {
+    font-size: 40px;
+  }
+  #credits-content h2 {
+    font-size: 30px;
+  }
+  #credits-content p {
+    font-size: 20px;
+  }
+  .repo-button {
+    font-size: 30px;
+    padding: 20px 20px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #credits-content h1 {
+    font-size: 40px;
+  }
+  #credits-content h2 {
+    font-size: 30px;
+  }
+  #credits-content p {
+    font-size: 22.5px;
+  }
+  .repo-button {
+    font-size: 30px;
+    padding: 20px 20px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  #credits-content h1 {
+    font-size: 40px;
+  }
+  #credits-content h2 {
+    font-size: 30px;
+  }
+  #credits-content p {
+    font-size: 22.5px;
+  }
+  .repo-button {
+    font-size: 25px;
+    padding: 20px 20px;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  #credits-content h1 {
+    font-size: 45px;
+  }
+  #credits-content h2 {
+    font-size: 32.5px;
+  }
+  #credits-content p {
+    font-size: 23.5px;
+  }
+  .repo-button {
+    font-size: 25px;
+    padding: 20px 20px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .repo-button {
+    background-color: var(--bright-orange);
+    text-decoration: none !important;
+    color: white !important;
+    border: none;
+    border-radius: 0.5vw;
+    padding: 1vw 2vw;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    margin: 1vw 1vw;
+    cursor: pointer;
+  }
+
+  #credits-content {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
+  #credits-content h1 {
+    font-size: 47px;
+  }
+  #credits-content h2 {
+    font-size: 40px;
+  }
+  #credits-content p {
+    font-size: 20px;
+  }
 }

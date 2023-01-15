@@ -227,19 +227,19 @@ body {
 }
 
 .slide:nth-child(1) {
-  background: green;
+  background: white;
 }
 
 .slide:nth-child(2) {
-  background: pink;
+  background: white;
 }
 
 .slide:nth-child(3) {
-  background: red;
+  background: white;
 }
 
 .slide:nth-child(4) {
-  background: yellow;
+  background: white
 }
 
 @keyframes slide {
@@ -278,7 +278,6 @@ body {
   margin: 5%;
   text-align: center;
   background-color: var(--very-light-blue);
-  text-align: center;
   font-family: Nunito;
 }
 
@@ -344,8 +343,8 @@ body {
 
 .repo-button {
   background-color: var(--bright-orange);
-  text-decoration: none !important;
-  color: white !important;
+  text-decoration: none;
+  color: white;
   border: none;
   border-radius: 0.5vw;
   padding: 1vw 2vw;
@@ -357,6 +356,12 @@ body {
   font-family: Quicksand;
   font-weight: 600;
 }
+
+.repo-button:hover{
+  background-color: rgb(255, 120, 70);
+  transition: 0.5s;
+}
+
 
 #credits-content {
   max-width: 80%;

@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 :root {
+  --coloring-size: 150px;
   --teal: rgb(0, 255, 209);
   --ocean-blue: rgb(49, 198, 212);
   --bright-yellow: rgb(255, 255, 0);
@@ -286,6 +287,7 @@ body {
   font-weight: 600;
   text-align: center;
   color: #ffffff;
+  margin: 10px;
 }
 
 .banner-h2 {
@@ -293,6 +295,7 @@ body {
   font-weight: 600;
   text-align: center;
   color: #ffffff;
+  margin: 10px;
 }
 
 .memory-banner {
@@ -313,7 +316,7 @@ body {
   );
   height: 300px;
   margin: auto;
-  width: 400px;
+  width: 500px;
 }
 
 .coloring-banner {
@@ -334,7 +337,7 @@ body {
   );
   height: 300px;
   margin: auto;
-  width: 400px;
+  width: 500px;
 }
 
 /* Credits Page */
@@ -507,5 +510,105 @@ body {
   }
   #credits-content p {
     font-size: 20px;
+  }
+}
+
+.coloring-page-section {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.coloring-page-div {
+  height: var(--coloring-size);
+  width: var(--coloring-size);
+  margin-top: 10px;
+  align-content: center;
+}
+
+.coloring-page-div1 {
+  background-image: url("Coloring\ Pages/5.PNG");
+  background-size: var(--coloring-size);
+}
+
+.coloring-page-div2 {
+  background-image: url("Coloring\ Pages/6.PNG");
+  background-size: var(--coloring-size);
+}
+
+.coloring-page-div3 {
+  background-image: url("Coloring\ Pages/9.PNG");
+  background-size: var(--coloring-size);
+}
+
+.coloring-page-div4 {
+  background-image: url("Coloring\ Pages/7.PNG");
+  background-size: var(--coloring-size);
+}
+
+.coloring-page-div5 {
+  background-image: url("Coloring\ Pages/1.PNG");
+  background-size: var(--coloring-size);
+}
+
+.coloring-page-div6 {
+  background-image: url("Coloring\ Pages/4.PNG");
+  background-size: var(--coloring-size);
+}
+
+.coloring-page-div7 {
+  background-image: url("Coloring\ Pages/3.PNG");
+  background-size: var(--coloring-size);
+}
+
+.coloring-page-div8 {
+  background-image: url("Coloring\ Pages/2.PNG");
+  background-size: var(--coloring-size);
+}
+
+.coloring-page-div9 {
+  background-image: url("Coloring\ Pages/10.PNG");
+  background-size: var(--coloring-size);
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --coloring-size: 100px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  :root {
+    --coloring-size: 110px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  :root {
+    --coloring-size: 120px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  :root {
+    --coloring-size: 130px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  :root {
+    --coloring-size: 150px;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  :root {
+    --coloring-size: 170px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  :root {
+    --coloring-size: 190px;
   }
 }

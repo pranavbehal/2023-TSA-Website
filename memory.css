@@ -31,6 +31,10 @@
   position: static !important;
 }
 
+img:hover {
+  cursor: pointer;
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -74,6 +78,11 @@ button:hover {
   display: inline-block;
   margin-right: 10px;
   vertical-align: middle;
+}
+
+#memory-restart {
+  text-align: center;
+  margin: auto;
 }
 
 @media only screen and (max-width: 600px) {

@@ -33,6 +33,7 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: white;
+  overflow-x: hidden;
 }
 
 section {
@@ -209,6 +210,19 @@ body {
 
 .about-link {
   text-align: center;
+}
+
+.about-button {
+  background-color: var(--bright-orange);
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 0.5vw;
+  padding: 1vw 2vw;
+  text-align: center;
+  font-size: 25px;
+  margin: 1vw 1vw;
+  cursor: pointer;
 }
 
 .rating-flex-container {

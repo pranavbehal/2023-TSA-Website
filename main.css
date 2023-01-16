@@ -239,7 +239,7 @@ body {
 }
 
 .slide:nth-child(4) {
-  background: white
+  background: white;
 }
 
 @keyframes slide {
@@ -287,6 +287,7 @@ body {
   text-align: center;
   color: #ffffff;
   margin: 10px;
+  font-size: 40px;
 }
 
 .banner-h2 {
@@ -295,6 +296,8 @@ body {
   text-align: center;
   color: #ffffff;
   margin: 10px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .memory-banner {
@@ -339,6 +342,146 @@ body {
   width: 500px;
 }
 
+@media only screen and (max-width: 600px) {
+  .coloring-banner {
+    height: 300px;
+    width: 200px;
+  }
+
+  .memory-banner {
+    height: 300px;
+    width: 200px;
+  }
+
+  .banner-h1 {
+    font-size: 30px;
+  }
+
+  .banner-h2 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .coloring-banner {
+    height: 300px;
+    width: 320px;
+  }
+
+  .memory-banner {
+    height: 300px;
+    width: 320px;
+  }
+
+  .banner-h1 {
+    font-size: 35px;
+  }
+
+  .banner-h2 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .coloring-banner {
+    height: 300px;
+    width: 400px;
+  }
+
+  .memory-banner {
+    height: 300px;
+    width: 400px;
+  }
+
+  .banner-h1 {
+    font-size: 40px;
+  }
+
+  .banner-h2 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .coloring-banner {
+    height: 300px;
+    width: 450px;
+  }
+
+  .memory-banner {
+    height: 300px;
+    width: 450px;
+  }
+
+  .banner-h1 {
+    font-size: 45px;
+  }
+
+  .banner-h2 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .coloring-banner {
+    height: 300px;
+    width: 500px;
+  }
+
+  .memory-banner {
+    height: 300px;
+    width: 500px;
+  }
+
+  .banner-h1 {
+    font-size: 50px;
+  }
+
+  .banner-h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .coloring-banner {
+    height: 300px;
+    width: 600px;
+  }
+
+  .memory-banner {
+    height: 300px;
+    width: 600px;
+  }
+
+  .banner-h1 {
+    font-size: 50px;
+  }
+
+  .banner-h2 {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .coloring-banner {
+    height: 350px;
+    width: 700px;
+  }
+
+  .memory-banner {
+    height: 350px;
+    width: 700px;
+  }
+
+  .banner-h1 {
+    font-size: 50px;
+  }
+
+  .banner-h2 {
+    font-size: 35px;
+  }
+}
+
 /* Credits Page */
 
 .repo-button {
@@ -357,11 +500,10 @@ body {
   font-weight: 600;
 }
 
-.repo-button:hover{
+.repo-button:hover {
   background-color: rgb(255, 120, 70);
   transition: 0.5s;
 }
-
 
 #credits-content {
   max-width: 80%;

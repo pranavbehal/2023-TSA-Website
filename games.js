@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
       const card = document.createElement("img");
-      card.setAttribute("src", "images/blank.PNG");
+      card.setAttribute("src", "images/Logo 3.PNG");
       card.setAttribute("data-id", i);
       card.addEventListener("click", flipCard);
       grid.appendChild(card);
@@ -92,8 +92,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const optionTwoId = cardsChosenId[1];
 
     if (optionOneId == optionTwoId) {
-      cards[optionOneId].setAttribute("src", "images/blank.PNG");
-      cards[optionTwoId].setAttribute("src", "images/blank.PNG");
+      cards[optionOneId].setAttribute("src", "images/Logo 3.PNG");
+      cards[optionTwoId].setAttribute("src", "images/Logo 3.PNG");
     } else if (cardsChosen[0] === cardsChosen[1]) {
       cards[optionOneId].setAttribute("src", "images/transparent.PNG");
       cards[optionTwoId].setAttribute("src", "images/transparent.PNG");
@@ -101,8 +101,8 @@ document.addEventListener("DOMContentLoaded", () => {
       cards[optionTwoId].removeEventListener("click", flipCard);
       cardsWon.push(cardsChosen);
     } else {
-      cards[optionOneId].setAttribute("src", "images/blank.PNG");
-      cards[optionTwoId].setAttribute("src", "images/blank.PNG");
+      cards[optionOneId].setAttribute("src", "images/Logo 3.PNG");
+      cards[optionTwoId].setAttribute("src", "images/Logo 3.PNG");
     }
     cardsChosen = [];
     cardsChosenId = [];

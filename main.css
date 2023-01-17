@@ -131,6 +131,7 @@ a:hover {
   top: 30px;
   left: 0px;
   right: 0px;
+  width: 100%;
 }
 
 .title {
@@ -141,8 +142,8 @@ a:hover {
 }
 
 .h1 {
-  font-size: 4vw;
-  font-family: Nunito;
+  font-size: 100px;
+  font-family: Chilanka;
   text-align: center;
   vertical-align: text-top;
 }
@@ -153,6 +154,20 @@ a:hover {
   padding: 0 5%;
   width: 100%;
   border-radius: 1vw;
+}
+
+.about-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--cream-white);
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: Quicksand;
+  font-weight: 600;
+  text-align: center;
 }
 
 div.relative {
@@ -173,8 +188,415 @@ body {
   padding: 0 10px;
 }
 
+.about-h2 {
+  font-family: Quicksand;
+  font-size: 30px;
+  font-weight: 600;
+}
+
 .CharImg {
   width: 90%;
+}
+
+.about-footer {
+  background-color: var(--sky-blue);
+  padding: 20px 5%;
+  bottom: 0;
+  transition: 0.5s;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  font-family: Quicksand;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Char {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .about-h2 {
+    font-family: Quicksand;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .CharImg {
+    width: 90%;
+  }
+
+  .about-footer {
+    padding: 20px 5%;
+    bottom: 0;
+    transition: 0.5s;
+    text-align: center;
+    z-index: 1;
+    font-size: 20px;
+  }
+
+  .h1 {
+    font-size: 50px;
+    font-family: Chilanka;
+    text-align: center;
+    vertical-align: text-top;
+  }
+
+  .Charecters {
+    margin: 5vw 0px;
+    background-color: var(--bright-orange) !important;
+    padding: 0 5%;
+    width: 100%;
+    border-radius: 1vw;
+  }
+
+  .about-container {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .CharText {
+    font-size: 17.5px;
+    font-family: Quicksand;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .Char {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .about-h2 {
+    font-family: Quicksand;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .CharImg {
+    width: 90%;
+  }
+
+  .about-footer {
+    padding: 20px 5%;
+    bottom: 0;
+    transition: 0.5s;
+    text-align: center;
+    z-index: 1;
+    font-size: 20px;
+  }
+
+  .h1 {
+    font-size: 60px;
+    font-family: Chilanka;
+    text-align: center;
+    vertical-align: text-top;
+  }
+
+  .Charecters {
+    margin: 5vw 0px;
+    background-color: var(--bright-orange) !important;
+    padding: 0 5%;
+    width: 100%;
+    border-radius: 1vw;
+  }
+
+  .about-container {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .CharText {
+    font-size: 17.5px;
+    font-family: Quicksand;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Char {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .about-h2 {
+    font-family: Quicksand;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .CharImg {
+    width: 90%;
+  }
+
+  .about-footer {
+    padding: 20px 5%;
+    bottom: 0;
+    transition: 0.5s;
+    text-align: center;
+    z-index: 1;
+    font-size: 22px;
+  }
+
+  .h1 {
+    font-size: 70px;
+    font-family: Chilanka;
+    text-align: center;
+    vertical-align: text-top;
+  }
+
+  .Charecters {
+    margin: 5vw 0px;
+    background-color: var(--bright-orange) !important;
+    padding: 0 5%;
+    width: 100%;
+    border-radius: 1vw;
+  }
+
+  .about-container {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .CharText {
+    font-size: 20px;
+    font-family: Quicksand;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .Char {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .about-h2 {
+    font-family: Quicksand;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .CharImg {
+    width: 90%;
+  }
+
+  .about-footer {
+    padding: 22px 5%;
+    bottom: 0;
+    transition: 0.5s;
+    text-align: center;
+    z-index: 1;
+    font-size: 22px;
+  }
+
+  .h1 {
+    font-size: 70px;
+    font-family: Chilanka;
+    text-align: center;
+    vertical-align: text-top;
+  }
+
+  .Charecters {
+    margin: 0px 0px;
+    background-color: var(--bright-orange) !important;
+    padding: 0 5%;
+    width: 100%;
+    border-radius: 1vw;
+  }
+
+  .about-container {
+    font-size: 23.5px;
+    text-align: center;
+  }
+
+  .CharText {
+    font-size: 20px;
+    font-family: Quicksand;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .Char {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .about-h2 {
+    font-family: Quicksand;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .CharImg {
+    width: 90%;
+  }
+
+  .about-footer {
+    padding: 25px 5%;
+    bottom: 0;
+    transition: 0.5s;
+    text-align: center;
+    z-index: 1;
+    font-size: 25px;
+  }
+
+  .h1 {
+    font-size: 80px;
+    font-family: Chilanka;
+    text-align: center;
+    vertical-align: text-top;
+  }
+
+  .Charecters {
+    margin: 0px 0px;
+    background-color: var(--bright-orange) !important;
+    padding: 0 5%;
+    width: 100%;
+    border-radius: 1vw;
+  }
+
+  .about-container {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .CharText {
+    font-size: 20px;
+  }
+
+  .CharText {
+    font-size: 25px;
+    font-family: Quicksand;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .Char {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .about-h2 {
+    font-family: Quicksand;
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .CharImg {
+    width: 90%;
+  }
+
+  .about-footer {
+    padding: 25px 5%;
+    bottom: 0;
+    transition: 0.5s;
+    text-align: center;
+    z-index: 1;
+    font-size: 25px;
+  }
+
+  .h1 {
+    font-size: 90px;
+    font-family: Chilanka;
+    text-align: center;
+    vertical-align: text-top;
+  }
+
+  .Charecters {
+    margin: 0px 0px;
+    background-color: var(--bright-orange) !important;
+    padding: 0 5%;
+    width: 100%;
+    border-radius: 1vw;
+  }
+
+  .about-container {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .CharText {
+    font-size: 25px;
+    font-family: Quicksand;
+    font-weight: 300;
+  }
+
+  .CharText {
+    font-size: 25px;
+    font-family: Quicksand;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .Char {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+  .about-h2 {
+    font-family: Quicksand;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .CharImg {
+    width: 90%;
+  }
+
+  .about-footer {
+    background-color: var(--sky-blue);
+    padding: 20px 5%;
+    bottom: 0;
+    transition: 0.5s;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    font-family: Quicksand;
+    font-weight: 600;
+    font-size: 27px;
+  }
+
+  .h1 {
+    font-size: 100px;
+    font-family: Chilanka;
+    text-align: center;
+    vertical-align: text-top;
+  }
+
+  .Charecters {
+    margin: 5vw 0px;
+    background-color: var(--bright-orange) !important;
+    padding: 0 5%;
+    width: 100%;
+    border-radius: 1vw;
+  }
+
+  .about-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--cream-white);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: Quicksand;
+    font-weight: 600;
+    text-align: center;
+  }
 }
 
 .flex-container {
@@ -315,14 +737,6 @@ body {
   }
   80% {
     margin-left: calc(-500px * 3);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .Char {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
   }
 }
 

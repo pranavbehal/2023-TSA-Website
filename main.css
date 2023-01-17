@@ -184,7 +184,7 @@ a:hover {
 }
 
 .rating-para {
-  width: 55%;
+  width: 100%;
   padding: 6%;
   font-size: 2vw;
   background-color: rgba(14, 148, 160, 0.5);
@@ -604,7 +604,7 @@ a:hover {
   }
 
   .rating-para {
-    width: 55%;
+    width: 100%;
     padding: 6%;
     font-size: 2vw;
     background-color: rgba(14, 148, 160, 0.5);
@@ -1176,12 +1176,12 @@ body {
 @media only screen and (max-width: 600px) {
   .coloring-banner {
     height: 300px;
-    width: 200px;
+    width: 300px;
   }
 
   .memory-banner {
     height: 300px;
-    width: 200px;
+    width: 300px;
   }
 
   .banner-h1 {

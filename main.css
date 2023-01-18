@@ -40,7 +40,7 @@ section {
   margin: 16px;
 }
 
-nav{
+nav {
   background-color: var(--sky-blue);
 }
 
@@ -80,8 +80,8 @@ a:hover {
   text-decoration: none;
 }
 
-#mobile-nav{
-  display: none
+#mobile-nav {
+  display: none;
 }
 
 .web-nav {
@@ -141,6 +141,8 @@ a:hover {
     display: block;
     text-align: left;
     font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
     background-color: var(--bright-orange);
   }
 
@@ -148,6 +150,7 @@ a:hover {
     background-color: transparent;
     border: none;
     margin: 0%;
+    display: flex;
   }
 
   .dropdown:hover .menu-content {
@@ -158,11 +161,15 @@ a:hover {
 
   #menu-img {
     height: 72px;
+    align-items: left !important;
+    align-self: left !important;
+    align-content: left !important;
   }
 
   #mobile-nav {
     display: initial;
   }
+}
 
 .hero-image {
   width: 100%;

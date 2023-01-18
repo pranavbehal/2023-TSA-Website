@@ -40,6 +40,10 @@ section {
   margin: 16px;
 }
 
+nav{
+  background-color: var(--sky-blue);
+}
+
 button {
   background-color: var(--bright-orange);
   text-decoration: none;
@@ -74,6 +78,10 @@ a:visited {
 a:hover {
   color: var(--neon-teal);
   text-decoration: none;
+}
+
+#mobile-nav{
+  display: none
 }
 
 .web-nav {
@@ -116,6 +124,45 @@ a:hover {
   margin-right: 10px;
   vertical-align: middle;
 }
+
+@media screen and (max-width: 500px) {
+  .web-nav {
+    display: none;
+  }
+
+  .menu-content {
+    display: none;
+  }
+
+  .menu-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: Lovelo;
+    background-color: var(--bright-orange);
+  }
+
+  .menu-btn {
+    background-color: transparent;
+    border: none;
+    margin: 0%;
+  }
+
+  .dropdown:hover .menu-content {
+    display: block;
+    position: absolute;
+    z-index: 1;
+  }
+
+  #menu-img {
+    height: 72px;
+  }
+
+  #mobile-nav {
+    display: initial;
+  }
 
 .hero-image {
   width: 100%;

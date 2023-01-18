@@ -125,7 +125,7 @@ a:hover {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .web-nav {
     display: none;
   }
@@ -140,7 +140,7 @@ a:hover {
     text-decoration: none;
     display: block;
     text-align: left;
-    font-family: Lovelo;
+    font-family: Quicksand;
     background-color: var(--bright-orange);
   }
 

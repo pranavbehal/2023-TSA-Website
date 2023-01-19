@@ -166,6 +166,15 @@ a:hover {
     align-content: left !important;
   }
 
+  .menu-img-div {
+    height: 72px;
+    display: block;
+    align-items: left !important;
+    align-self: left !important;
+    align-content: left !important;
+    content: url(images/menu-lines.jpg);
+  }
+
   #mobile-nav {
     display: initial;
   }

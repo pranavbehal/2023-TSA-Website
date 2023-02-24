@@ -697,11 +697,12 @@ a:hover {
 
 /* About Page */
 
-.h1 {
+h1 {
   font-size: 100px;
   font-family: Chilanka;
   text-align: center;
   vertical-align: text-top;
+  color: var(--baby-blue);
 }
 
 .Charecters {
@@ -1175,6 +1176,23 @@ body {
   font-family: Nunito;
 }
 
+.game-flex-container{
+  display: flex;
+  align-items: center;
+}
+
+.banner{
+  background-image: linear-gradient(
+  to right top,
+  var(--sky-blue),
+  var(--bright-orange)
+  );
+  border-radius: 5px;
+  height: 300px;
+  width: 100%;
+  margin: 2%;
+}
+
 .banner-h1 {
   font-family: Quicksand;
   font-weight: 600;
@@ -1192,48 +1210,6 @@ body {
   margin: 10px;
   font-size: 20px;
   font-weight: 400;
-}
-
-.memory-banner {
-  background-image: linear-gradient(
-    to right top,
-    #d16ba5,
-    #c777b9,
-    #ba83ca,
-    #aa8fd8,
-    #9a9ae1,
-    #8aa7ec,
-    #79b3f4,
-    #69bff8,
-    #52cffe,
-    #41dfff,
-    #46eefa,
-    #5ffbf1
-  );
-  height: 300px;
-  margin: auto;
-  width: 500px;
-}
-
-.coloring-banner {
-  background-image: linear-gradient(
-    to right top,
-    #d16ba5,
-    #c777b9,
-    #ba83ca,
-    #aa8fd8,
-    #9a9ae1,
-    #8aa7ec,
-    #79b3f4,
-    #69bff8,
-    #52cffe,
-    #41dfff,
-    #46eefa,
-    #5ffbf1
-  );
-  height: 300px;
-  margin: auto;
-  width: 500px;
 }
 
 @media only screen and (max-width: 600px) {

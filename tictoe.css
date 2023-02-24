@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Chilanka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: Lazy Dog;
+  src: url("lazy_dog.ttf");
+}
+
+:root {
+  --coloring-size: 150px;
+  --teal: rgb(0, 255, 209);
+  --ocean-blue: rgb(49, 198, 212);
+  --bright-yellow: rgb(255, 255, 0);
+  --bright-red: rgb(255, 30, 30);
+  --sky-blue: #79b7ff;
+
+  --darker-red: rgb(210, 0, 26);
+  --cream-white: rgb(255, 250, 231);
+  --light-grey: rgb(239, 239, 239);
+
+  --light-blue: rgb(195, 248, 255);
+  --baby-blue: rgb(171, 217, 255);
+  --light-yellow: rgb(255, 246, 191);
+  --light-medium-yellow: rgb(255, 235, 173);
+  --very-light-blue: rgb(185, 255, 248);
+  --neon-teal: rgb(111, 237, 214);
+  --bright-orange: rgb(255, 149, 81);
+  --light-red: rgb(255, 74, 74);
+}
+   
+#b1, #b2, #b3, #b4, #b5,
+#b6, #b7, #b8, #b9 {
+  width: 80px;
+  height: 52px;
+  margin: auto;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--bright-orange);
+  font-size: 30px;
+  text-align: center;
+}
+
+#button {
+  box-sizing: border-box;
+  text-align: center;
+  border: none;
+  margin: auto;
+  border-radius: 4px;
+  font-family: Nunito;
+  background-color: var(--sky-blue);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#print {
+  font-family: Nunito;
+  color: var(--sky-blue);
+  font-size: 20px;
+}
+
+#main {
+  text-align: center;
+}
+
+#ins {
+  font-family: Nunito;
+  color: var(--sky-blue);
+  font-size: 17px;
+}

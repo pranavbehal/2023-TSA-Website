@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F2QP5SLMNY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-F2QP5SLMNY"
+    ></script>
+    <script src="tictoe.js">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-F2QP5SLMNY');
-</script>
+      gtag("config", "G-F2QP5SLMNY");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="icon" type="image/x-icon" href="/Images/Logo 2.PNG" />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="tictoe.css" />
+    <link rel="stylesheet" href="main.css"/>
     <link rel="stylesheet" href="https://use.typekit.net/xbo6rbk.css" />
-
     <script src="index.js"></script>
   </head>
-  <body>
     <nav>
       <div class="dropdown" id="mobile-nav">
       <button class="menu-btn">
@@ -36,8 +39,8 @@
     </div>
   <div class="web-nav">
     <a href="index.html" class="nav-link home-nav-link"
-    ><li class="nav-li">HOME</li></a
-  >
+    ><li class="nav-li">HOME</li></a>
+    
   <a href="about.html" class="nav-link"
     ><li class="nav-li">
       <img
@@ -80,31 +83,57 @@
   >
   </div>
 </nav>
-    <h1>GAMES!</h1>
-    <div class="game-banners game-flex-container">
-      <div class="banner">
-        <a href="memory.html">
-          <h1 class="banner-h1 memory-banner-h1">Memory Game</h1>
-          <h2 class="banner-h2 memory-banner-h2">
-          In this game, you will be flipping cards to try and find matching pairs.
-          To win, find all of the pairs!</h2>
-        </a>
-      </div>
-      <div class="banner">
-        <a href="coloring.html">
-          <h1 class="banner-h1">Coloring Pages</h1>
-          <h2 class="banner-h2">
-          Ask a parent to help you print out these coloring pages and color them in!
-          </h2>
-        </a>
-      </div>
-      <div class="banner">
-        <a href="tictoe.html">
-          <h1 class="banner-h1">TIC-TAC-TOE</h1>
-          <h2 class="banner-h2">Get a buddy and play a game of tic-tac-toe together!</h2>
-        </a>
-      </div>
+    </nav>   
+<body>
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+   
+        <p id="ins">Game starts by just Tap on 
+            box<br><br>First Player starts as 
+            <b>Player X</b><br>And<br>Second 
+            Player as <b>Player 0</b>
+        </p>
+ 
+  
+   
+   
+        <br><br>
+        <input type="text" id="b1" onclick=
+            "myfunc_3(); myfunc();" readonly>
+   
+        <input type="text" id="b2" onclick=
+            "myfunc_4(); myfunc();" readonly>
+   
+        <input type="text" id="b3" onclick=
+            "myfunc_5(); myfunc();" readonly>
+        <br><br>
+   
+        <input type="text" id="b4" onclick=
+            "myfunc_6(); myfunc();" readonly>
+               
+        <input type="text" id="b5" onclick=
+            "myfunc_7(); myfunc();" readonly>
+   
+        <input type="text" id="b6" onclick=
+            "myfunc_8(); myfunc();" readonly>
+        <br><br>
+   
+        <input type="text" id="b7" onclick=
+            "myfunc_9(); myfunc();" readonly>
+   
+        <input type="text" id="b8" onclick=
+            "myfunc_10();myfunc();" readonly>
+   
+        <input type="text" id="b9" onclick=
+            "myfunc_11();myfunc();" readonly>
+   
+        <br><br><br>
+        <button id="button" onclick="myfunc_2()">
+            RESET
+        </button>
+   
+        <br><br>
+        <p id="print"></p>
     </div>
-    
-  </body>
+</body>
 </html>

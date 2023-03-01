@@ -1176,16 +1176,16 @@ body {
   font-family: Nunito;
 }
 
-.game-flex-container{
+.game-flex-container {
   display: flex;
   align-items: center;
 }
 
-.banner{
+.banner {
   background-image: linear-gradient(
-  to right top,
-  var(--sky-blue),
-  var(--bright-orange)
+    to right top,
+    var(--sky-blue),
+    var(--bright-orange)
   );
   border-radius: 5px;
   height: 300px;
@@ -1213,34 +1213,28 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .coloring-banner {
+  .banner {
+    border-radius: 5px;
     height: 300px;
-    width: 300px;
-  }
-
-  .memory-banner {
-    height: 300px;
-    width: 300px;
+    width: 100%;
+    margin: 2%;
   }
 
   .banner-h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .banner-h2 {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
 @media only screen and (min-width: 600px) {
-  .coloring-banner {
-    height: 300px;
-    width: 320px;
-  }
-
-  .memory-banner {
-    height: 300px;
-    width: 320px;
+  .banner {
+    border-radius: 5px;
+    height: 350px;
+    width: 100%;
+    margin: 2%;
   }
 
   .banner-h1 {
@@ -1248,19 +1242,16 @@ body {
   }
 
   .banner-h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .coloring-banner {
-    height: 300px;
-    width: 400px;
-  }
-
-  .memory-banner {
-    height: 300px;
-    width: 400px;
+  .banner {
+    border-radius: 5px;
+    height: 350px;
+    width: 100%;
+    margin: 2%;
   }
 
   .banner-h1 {
@@ -1268,19 +1259,16 @@ body {
   }
 
   .banner-h2 {
-    font-size: 25px;
+    font-size: 22.5px;
   }
 }
 
 @media only screen and (min-width: 900px) {
-  .coloring-banner {
-    height: 300px;
-    width: 450px;
-  }
-
-  .memory-banner {
-    height: 300px;
-    width: 450px;
+  .banner {
+    border-radius: 5px;
+    height: 400px;
+    width: 100%;
+    margin: 2%;
   }
 
   .banner-h1 {
@@ -1293,18 +1281,15 @@ body {
 }
 
 @media only screen and (min-width: 1050px) {
-  .coloring-banner {
-    height: 300px;
-    width: 500px;
-  }
-
-  .memory-banner {
-    height: 300px;
-    width: 500px;
+  .banner {
+    border-radius: 5px;
+    height: 400px;
+    width: 100%;
+    margin: 2%;
   }
 
   .banner-h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
 
   .banner-h2 {
@@ -1313,18 +1298,15 @@ body {
 }
 
 @media only screen and (min-width: 1350px) {
-  .coloring-banner {
-    height: 300px;
-    width: 600px;
-  }
-
-  .memory-banner {
-    height: 300px;
-    width: 600px;
+  .banner {
+    border-radius: 5px;
+    height: 450px;
+    width: 100%;
+    margin: 2%;
   }
 
   .banner-h1 {
-    font-size: 50px;
+    font-size: 55px;
   }
 
   .banner-h2 {
@@ -1333,22 +1315,35 @@ body {
 }
 
 @media only screen and (min-width: 1800px) {
-  .coloring-banner {
-    height: 350px;
-    width: 700px;
-  }
-
-  .memory-banner {
-    height: 350px;
-    width: 700px;
+  .banner {
+    background-image: linear-gradient(
+      to right top,
+      var(--sky-blue),
+      var(--bright-orange)
+    );
+    border-radius: 5px;
+    height: 300px;
+    width: 100%;
+    margin: 2%;
   }
 
   .banner-h1 {
+    font-family: Quicksand;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
     font-size: 50px;
   }
 
   .banner-h2 {
-    font-size: 35px;
+    font-family: Nunito;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 400;
   }
 }
 

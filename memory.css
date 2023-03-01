@@ -39,6 +39,10 @@ button:hover {
   cursor: pointer;
 }
 
+.memory-bottom-margin {
+  margin-top: 50px;
+}
+
 #memory-explanation {
   margin-left: 10px;
   margin-right: 10px;

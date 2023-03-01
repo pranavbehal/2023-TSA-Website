@@ -1212,6 +1212,12 @@ body {
   font-weight: 400;
 }
 
+@media only screen and (max-width: 1000px) {
+  .games-h1 {
+    font-family: Nunito;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .banner {
     border-radius: 5px;

@@ -1,6 +1,11 @@
 window.localStorage.setItem("hasCodeRunBefore", "false");
 window.onload = function () {
   if (window.localStorage.getItem("hasCodeRunBefore") === "false") {
+    console.log(
+      `code has not run before, code is ${localStorage.getItem(
+        "hasCodeRunBefore"
+      )}`
+    );
     let oneUseScore = 9999;
     window.localStorage.setItem("highScore", oneUseScore);
     window.localStorage.setItem("hasCodeRunBefore", "true");

@@ -2150,17 +2150,31 @@ body {
 }
 
 /* Contact Form */
+.contact{
+  background-color: #79b7ff;
+  border-radius: 5px;
+  margin: 5% 10%;
+  padding: 5%;
+  color: white;
+  font-family: Nunito;
+}
+
 .contact-form-field {
   background: none;
   line-height: 20px;
-  font-family: "Nunito";
   width: 40%;
+  padding: 2%;
   height: 40px;
   font-size: 16px;
   color: var(--cultured-2);
   outline: 0;
-  border-width: 0 0 2px;
-  border-color: var(--dm-light-gray);
+  background-color: var(--bright-orange);
+  border-radius: 50px;
+  border: 2px solid white;
+}
+
+.contact-form-field-header{
+  font-size: 1.2em;
 }
 
 .contact-form-field:focus {
@@ -2173,13 +2187,15 @@ body {
 }
 
 #contact-form-button {
+  border-radius: 50px;
   margin-top: 40px;
+  margin-left: 0;
   background: none;
   color: var(--cultured-2);
   border-color: var(--cultured-2);
   font-size: 20px;
   font-family: "Nunito";
-  margin-bottom: 20vh;
+  background-color: var(--bright-orange);
   padding: 10px;
 }
 
@@ -2195,4 +2211,12 @@ body {
 .form-thanks-h2 {
   font-size: 50px;
   font-family: Nunito;
+}
+
+.contact h2{
+  font-size: 2em;
+}
+
+.contact p{
+  font-size: 2em;
 }

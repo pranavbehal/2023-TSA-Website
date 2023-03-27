@@ -2148,3 +2148,51 @@ body {
     margin-right: 15%;
   }
 }
+
+/* Contact Form */
+.contact-form-field {
+  background: none;
+  line-height: 20px;
+  font-family: "Nunito";
+  width: 40%;
+  height: 40px;
+  font-size: 16px;
+  color: var(--cultured-2);
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: var(--dm-light-gray);
+}
+
+.contact-form-field:focus {
+  border-color: var(--cultured-2);
+}
+
+#contact-message-field {
+  width: 70%;
+  height: 150px;
+}
+
+#contact-form-button {
+  margin-top: 40px;
+  background: none;
+  color: var(--cultured-2);
+  border-color: var(--cultured-2);
+  font-size: 20px;
+  font-family: "Nunito";
+  margin-bottom: 20vh;
+  padding: 10px;
+}
+
+#contact-form-button:hover {
+  cursor: pointer;
+}
+
+.form-thanks {
+  text-align: center;
+  transform: translate(0%, 200%);
+}
+
+.form-thanks-h2 {
+  font-size: 50px;
+  font-family: Nunito;
+}

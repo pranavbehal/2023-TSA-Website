@@ -2162,14 +2162,13 @@ body {
 .contact-form-field {
   background: none;
   line-height: 20px;
-  width: 40%;
   padding: 2%;
   height: 40px;
   font-size: 16px;
   color: var(--cultured-2);
   outline: 0;
   background-color: var(--bright-orange);
-  border-radius: 50px;
+  border-radius: 5px;
   border: 2px solid white;
 }
 
@@ -2199,7 +2198,7 @@ body {
   padding: 10px;
 }
 
-#contact-form-button:hover {
+.contact-form-button:hover {
   cursor: pointer;
 }
 
@@ -2215,7 +2214,6 @@ body {
 
 .contact h2{
   font-size: 2em;
-  color: 
 }
 
 .contact p{

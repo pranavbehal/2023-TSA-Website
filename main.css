@@ -2227,8 +2227,10 @@ body {
 
 ::placeholder {
   color: #fefefe;
+  font-family: Nunito;
 }
 
 ::ms-input-placeholder {
   color: #fefefe;
+  font-family: Nunito;
 }

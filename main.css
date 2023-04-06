@@ -58,11 +58,13 @@ button {
   cursor: pointer;
   font-family: Quicksand;
   font-weight: 600;
+  transition: 0.3s ease-in-out;
 }
 
 button:hover {
   background-color: rgb(255, 120, 70);
-  transition: 0.5s;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.07);
 }
 
 a:link {
@@ -113,11 +115,13 @@ a:hover {
   margin: none;
   padding: 20px 1.5%;
   border-radius: 50px;
+  transition: 0.3s ease-in-out;
 }
 
 .nav-li:hover {
   background-color: #ffffff !important;
   color: var(--ocean-blue) !important;
+  transition: 0.2s ease-in-out;
 }
 
 .nav-images {
@@ -237,7 +241,7 @@ a:hover {
   border-radius: 10px;
   padding: 10px 20px;
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
   margin: 10px 10px;
   cursor: pointer;
 }
@@ -856,6 +860,7 @@ body {
 
   #meet-the-crew-h1 {
     padding-top: 35px;
+    color: white;
   }
 
   .Charecters {
@@ -2150,7 +2155,7 @@ body {
 }
 
 /* Contact Form */
-.contact{
+.contact {
   background-color: #79b7ff;
   border-radius: 5px;
   margin: 5% 10%;
@@ -2172,7 +2177,7 @@ body {
   border: 2px solid white;
 }
 
-.contact-form-field-header{
+.contact-form-field-header {
   font-size: 1.2em;
 }
 
@@ -2186,16 +2191,16 @@ body {
 }
 
 #contact-form-button {
-  border-radius: 50px;
+  border-radius: 15px;
   margin-top: 40px;
   margin-left: 0;
   background: none;
-  color: var(--cultured-2);
+  color: var(--cream-white);
   border-color: var(--cultured-2);
-  font-size: 20px;
+  font-size: 23px;
   font-family: "Nunito";
   background-color: var(--bright-orange);
-  padding: 10px;
+  padding: 20px;
 }
 
 .contact-form-button:hover {
@@ -2212,10 +2217,18 @@ body {
   font-family: Nunito;
 }
 
-.contact h2{
+.contact h2 {
   font-size: 2em;
 }
 
-.contact p{
+.contact p {
   font-size: 2em;
+}
+
+::placeholder {
+  color: #fefefe;
+}
+
+::ms-input-placeholder {
+  color: #fefefe;
 }
